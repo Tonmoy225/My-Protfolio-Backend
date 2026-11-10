@@ -1,0 +1,161 @@
+{
+  "profile": {
+    "fullName": "Md. Istiar Uddin Tonmoy",
+    "firstLine": "Istiar",
+    "secondLine": "Uddin Tonmoy",
+    "title": "Junior Web Developer",
+    "roles": ["Junior Web Developer", "React.js Developer", "Full-Stack Learner", "ML Enthusiast"],
+    "badge": "Available for Work",
+    "heroDesc": "I build clean, responsive, and user-friendly web applications, from pixel-perfect front ends to solid back-end APIs. Based in Dhaka, Bangladesh.",
+    "location": "Mirpur-2, Dhaka, Bangladesh",
+    "photoUrl": "/photo.jpg",
+    "cvUrl": "https://drive.google.com/file/d/1PAp7NytE0rjS7zQRDqHAERwmVDRuNXon/view?usp=sharing",
+    "email": "itonmoy92@gmail.com",
+    "phone": "+880-1784453399",
+    "phone2": "+880-1575690399",
+    "github": "https://github.com/Tonmoy225",
+    "linkedin": "https://linkedin.com/in/istier-tonmoy-587759394"
+  },
+  "stats": [
+    { "num": "5+", "label": "Projects Built" },
+    { "num": "12+", "label": "Tech Skills" },
+    { "num": "2+", "label": "Years Learning" },
+    { "num": "100%", "label": "Dedication" }
+  ],
+  "about": {
+    "sub": "A passionate developer from Rajshahi, Bangladesh on a mission to build great web experiences.",
+    "paragraphs": [
+      "I'm a motivated Junior Web Developer with hands-on experience building responsive, performant web applications using modern front-end and back-end stacks.",
+      "Comfortable taking a feature from wireframe to deployed product: writing clean, semantic HTML/CSS, interactive JavaScript, and connecting to REST APIs. I'm a proud member of Programming Hero Club where I continuously sharpen my development skills.",
+      "Eager to join a collaborative IT team where I can ship real value, learn production best practices, and grow into a full-stack role. Currently pursuing my B.Sc. in CSE and open to full-time, remote, or freelance opportunities."
+    ],
+    "info": [
+      { "key": "Full Name", "value": "Md. Istiar Uddin Tonmoy" },
+      { "key": "Nationality", "value": "Bangladeshi" },
+      { "key": "Location", "value": "Mirpur-2, Dhaka, BD" },
+      { "key": "Email", "value": "itonmoy92@gmail.com" },
+      { "key": "Phone", "value": "+880-1784453399" },
+      { "key": "Availability", "value": "Open to Work" }
+    ]
+  },
+  "skills": [
+    { "title": "Front-End", "icon": "design", "items": ["HTML5 / CSS3", "Tailwind CSS", "JavaScript-ES6", "TypeScript", "React.js", "Next.js", "Responsive Design"] },
+    { "title": "Back-End", "icon": "server", "items": ["Node.js", "Express.js", "PHP / Laravel", "REST API Design", "BetterAuth", "MySQL / SQLite"] },
+    { "title": "Database & Cloud", "icon": "database", "items": ["MongoDB & Mongoose", "MySQL", "Netlify / Vercel", "GitHub Pages", "cPanel / XAMPP"] },
+    { "title": "Data & AI", "icon": "ai", "items": ["Python", "Scikit-learn", "Pandas / NumPy", "Matplotlib / Seaborn", "AI-Assisted Coding", "AI Mindset & Engineering"] },
+    { "title": "Tools", "icon": "tools", "items": ["Git & GitHub", "VS Code", "Figma (UI/UX)", "Postman", "npm / yarn"] },
+    { "title": "Soft Skills", "icon": "brain", "items": ["Problem Solving", "Team Collaboration", "Attention to Detail", "Fast Learner", "Time Management"] }
+  ],
+  "projects": [
+    {
+      "title": "Cancer Detector",
+      "icon": "heart",
+      "stack": "Python, Machine Learning, Scikit-learn, Pandas, NumPy",
+      "desc": "A machine learning system that classifies cancer from medical dataset features using ensemble algorithms, achieving 94% test accuracy.",
+      "bullets": [
+        "Logistic Regression, Random Forest & SVM classifiers trained on real medical data",
+        "Data preprocessing & feature selection with Pandas & NumPy, reaching 94% accuracy",
+        "ROC curve, confusion matrix & feature importance charts via Matplotlib & Seaborn",
+        "Real-time prediction pipeline packaged for new patient inputs"
+      ],
+      "tags": ["Python", "Scikit-learn", "Pandas", "NumPy", "Matplotlib"],
+      "github": "https://github.com/Tonmoy225/skin-cancer-detector",
+      "live": "https://skin-cancer-detector-zl3q.onrender.com/"
+    },
+    {
+      "title": "Foodi Desh",
+      "icon": "food",
+      "stack": "HTML, CSS, JavaScript, PHP (Laravel), MySQL",
+      "desc": "A full-stack food delivery web platform with restaurant browsing, cart, order placement, live tracking, and an admin dashboard.",
+      "bullets": [
+        "Laravel MVC back-end with RESTful routes and Eloquent ORM",
+        "Role-based access: Admin, Restaurant Owner & Customer portals",
+        "Fully responsive HTML/CSS/JS front-end across all screen sizes",
+        "Live order status tracking and restaurant management dashboard"
+      ],
+      "tags": ["HTML", "CSS", "JavaScript", "PHP", "Laravel", "MySQL"],
+      "github": "https://github.com/Tonmoy225/foodash",
+      "live": ""
+    },
+    {
+      "title": "Eco-Hand: Second-Hand Device Buy/Sell Platform",
+      "icon": "recycle",
+      "stack": "Next.js, Node.js, Express.js, MongoDB Atlas, Tailwind CSS",
+      "desc": "A full-stack marketplace for buying and selling second-hand electronic devices, reducing e-waste with a modern, responsive interface.",
+      "bullets": [
+        "Developed a full-stack marketplace with product listings, cart, and transaction management",
+        "Built scalable REST APIs with Express.js and MongoDB Atlas for product, user & transaction data",
+        "Implemented secure authentication and protected routes using BetterAuth / JWT",
+        "Integrated Cloudinary for device image uploads; deployed on Vercel for production hosting"
+      ],
+      "tags": ["Next.js", "Node.js", "MongoDB", "Tailwind", "Render", "Vercel"],
+      "github": "https://github.com/Tonmoy225/Echo-hand-Website",
+      "live": "https://echo-hand-website.vercel.app/"
+    },
+    {
+      "title": "Customer Churn Analysis & Retention Dashboard",
+      "icon": "chart",
+      "stack": "Python (Pandas), SQL, Excel, Chart.js",
+      "desc": "A data analyst project on the IBM Telco Customer Churn dataset (7,043 customers), identifying churn drivers and building an interactive retention dashboard.",
+      "bullets": [
+        "Cleaned & aggregated data with Pandas; wrote 10 SQL queries for churn KPIs",
+        "Found 42.71% churn on month-to-month contracts vs. 2.83% on 2-year contracts",
+        "Built a formula-driven Excel summary (COUNTIFS/SUMIF) and interactive HTML dashboard",
+        "Delivered 5 actionable retention recommendations tied to $139K/month revenue at risk"
+      ],
+      "tags": ["Python", "Pandas", "SQL", "Excel", "Data Viz"],
+      "github": "https://github.com/Tonmoy225/Customer-Churn-Analysis-Retention-Dashboard",
+      "live": "https://tonmoy225.github.io/Customer-Churn-Analysis-Retention-Dashboard/"
+    },
+    {
+      "title": "E-Commerce Sales & Customer Analysis Dashboard",
+      "icon": "cart",
+      "stack": "Python (Pandas), SQL, RFM Segmentation, Excel, Chart.js",
+      "desc": "Analyzed 541,909 transactions from the UCI Online Retail dataset to identify profitable products, markets, and customer segments.",
+      "bullets": [
+        "Cleaned transactional data & built an RFM (Recency, Frequency, Monetary) segmentation model",
+        "Segmented 4,338 customers into Champions, Loyal, At Risk & Lost groups",
+        "Uncovered £10.6M total revenue across 38 countries and a clear November seasonal peak",
+        "Built formula-driven Excel workbook and an interactive sales dashboard"
+      ],
+      "tags": ["Python", "Pandas", "SQL", "RFM", "Excel"],
+      "github": "https://github.com/Tonmoy225/Ecommerce_Sales_Analysis",
+      "live": "https://tonmoy225.github.io/Ecommerce_Sales_Analysis/"
+    }
+  ],
+  "education": [
+    { "year": "2022 - Present", "degree": "B.Sc. in Computer Science & Engineering (Honours)", "inst": "Daffodil International University, Dhaka", "meta1": "Current SGPA: 3.41 / 4.00 (Running)", "meta2": "Web Engineering, DSA, DBMS, AI, Computer Graphics, Computer Network" },
+    { "year": "2018 - 2020", "degree": "Higher Secondary Certificate (HSC), Science Group", "inst": "Bangabandhu Govt. College, Rajshahi", "meta1": "GPA: 4.33 / 5.00", "meta2": "Rajshahi Education Board" },
+    { "year": "2017 - 2018", "degree": "Secondary School Certificate (SSC), Science Group", "inst": "Rajshahi Shikkha Board Govt. Model School and College", "meta1": "GPA: 4.50 / 5.00", "meta2": "Rajshahi Education Board" }
+  ],
+  "achievements": [
+    { "title": "AI for Beginners", "sub": "HP Company Online Platform, 2026", "link": "https://drive.google.com/file/d/1Uw_FSI-u_xBdpxiPOTeogBi4Z4rhk7tt/view?usp=sharing" },
+    { "title": "Web Development Bootcamp Certificate", "sub": "Udemy, 2026", "link": "" },
+    { "title": "Python for Data Science", "sub": "Udemy, 2025", "link": "" },
+    { "title": "Responsive Web Design", "sub": "freeCodeCamp, 2026", "link": "" },
+    { "title": "CPC - Code Programming Competition", "sub": "Volunteer, 2024", "link": "" }
+  ],
+  "activities": [
+    {
+      "role": "Student Member, Development & IT Skills",
+      "org": "Programming Hero Club",
+      "period": "2026 - Present",
+      "bullets": [
+        "Participated in structured full-stack learning tracks covering React.js, Node.js, Express.js and MongoDB (MERN stack)",
+        "Gained IT skills through workshops, coding challenges, and peer-led sessions on modern JS frameworks",
+        "Collaborated on real-world mini-projects and attended AI-assisted coding seminars",
+        "Received career roadmap guidance for junior developers in the IT industry"
+      ]
+    },
+    {
+      "role": "Active Member, CPC Club",
+      "org": "DIU Competitive Programming Club, Dhaka",
+      "period": "2023 - Present",
+      "bullets": [
+        "Participated in intra-university programming contests and algorithm workshops",
+        "Collaborated with peers on open-source mini-projects and group hackathons",
+        "Attended web development and software engineering knowledge-sharing sessions"
+      ]
+    }
+  ]
+}
