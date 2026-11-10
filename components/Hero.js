@@ -1,6 +1,7 @@
 'use client';
 import { useEffect, useState } from 'react';
 import { FaCode, FaEnvelope, FaGithub, FaLinkedinIn, FaLocationDot } from 'react-icons/fa6';
+import { imgUrl } from '@/lib/api';
 
 export default function Hero({ profile, stats }) {
   const [text, setText] = useState('');
@@ -85,7 +86,7 @@ export default function Hero({ profile, stats }) {
           <div className="absolute -inset-3 rounded-full border border-dashed border-brand/40" />
           {photoOk ? (
             <img
-              src={profile.photoUrl}
+              src={imgUrl(profile.photoUrl)}
               alt={profile.fullName}
               onError={() => setPhotoOk(false)}
               className="h-56 w-56 rounded-full border-4 border-brand object-cover shadow-xl md:h-64 md:w-64"

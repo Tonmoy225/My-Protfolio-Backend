@@ -1,6 +1,7 @@
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
-import { About, Skills, Projects, Education, Achievements, Activities } from '@/components/Sections';
+import { About, Skills, Education, Achievements, Activities } from '@/components/Sections';
+import Projects from '@/components/Projects';
 import Contact from '@/components/Contact';
 import Tracker from '@/components/Tracker';
 import defaultData from '@/lib/defaultData.json';
